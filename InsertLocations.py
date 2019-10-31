@@ -1,7 +1,9 @@
+import random
+
+import numpy as np
+
 from InsertQueries import INSERT_QUERY_LOCATIONS
 from Inserter import Inserter
-import numpy as np
-import random
 
 address_list = set()
 cities = ['Moscow', 'St. Petersburg', 'Serpukhov']

@@ -1,7 +1,9 @@
+import random
+
+import numpy as np
+
 from InsertQueries import INSERT_QUERY_CLIENT
 from Inserter import Inserter
-import numpy as np
-import random
 
 passport_numbers = set()
 drivers_license_numbers = set()

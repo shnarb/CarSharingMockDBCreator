@@ -1,7 +1,9 @@
+import random
+
+import numpy as np
+
 from InsertQueries import INSERT_QUERY_VEHICLE
 from Inserter import Inserter
-import numpy as np
-import random
 
 manufacturers_models = {'Honda': ['Accord', 'Amaze', 'Civic'],
                         'Audi': ['A1', 'A4', 'A7'],
