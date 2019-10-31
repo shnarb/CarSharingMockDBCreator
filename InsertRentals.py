@@ -9,7 +9,6 @@ import math
 
 adding_more = True
 
-
 conn = psycopg2.connect(
     "host='{}' port={} dbname='{}' user={} password={}".format("localhost", 5432, "carsharing", "postgres", ""))
 sql_moscow = "select id from locations WHERE locations.city='Moscow';"
